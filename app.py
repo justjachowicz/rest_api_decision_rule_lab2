@@ -25,7 +25,7 @@ def predict():
     num2 = float(request.args.get('num2', ''))
     prediction = 0
     if num1 + num2 > 5.8:
-        prediction = 1\
+        prediction = 1
 
     outputDict = {
         'prediction': prediction,
